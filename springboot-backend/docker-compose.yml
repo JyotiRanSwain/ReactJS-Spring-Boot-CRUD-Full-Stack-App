@@ -1,0 +1,8 @@
+services:
+  back-end:
+#    image: salesorder:1.0
+    image: be
+
+    ports:
+      - "8083:8083"
+    command: java -jar /app/salesorder-1.0.jar
